@@ -6,7 +6,10 @@
 
 ### MHN-Admin Deployment (Required)
 
-**Summary:** How did you deploy it? Did you use GCP, AWS, Azure, Vagrant, VirtualBox, etc.?
+**Summary:** How did you deploy it? Did you use GCP, AWS, Azure, Vagrant, VirtualBox, etc.?What is difference between GCP and AWS?
+
+
+Google Cloud Platform provides IaaS, PaaS, and serverless computing environments. A comparatively new Google Cloud Platform has all the tools and services required by developers and professionals. Amazon Web Services(AWS): It provides on-demand cloud computing platforms and APIs.
 ![MHN_Admin_Application](https://user-images.githubusercontent.com/111730072/205549082-ef4da64a-009c-449e-b28b-18f2a9dc82f7.gif)
 
 <img src="mhn-admin.gif">
@@ -16,6 +19,8 @@
 
 **Summary:** Briefly in your own words, what does dionaea do?
 
+
+Dionaea with HTTP, and you'll see a Deploy Command appear with a full deployment script below it. You can ignore the script, which is just for reference, but make a note of the Deploy Command, which is the one-line command you'll need to execute inside the honeypot VM you connected to in the last step.
 <img src="dionaea-honeypot.gif">
 
 ### Database Backup (Required) 
@@ -23,6 +28,8 @@
 
 **Summary:** What is the RDBMS that MHN-Admin uses? What information does the exported JSON file record?
 
+
+Modern Honey Network (MHN). MHN's architecture is modular and extensible and comes with many options for deploying different types of honey pots. In MHN architecture, there is a single admin VM which is used to deploy, manage and collect information from the honeypots, which are deployed as separate VMs. Thus to run MHN, we'll need to setup at least two VMs: the single Admin VM and at least one Honeypot VM.
 *Be sure to upload session.json directly to this GitHub repo/branch in order to get full credit.*
 
 ### Deploying Additional Honeypot(s) (Optional)
