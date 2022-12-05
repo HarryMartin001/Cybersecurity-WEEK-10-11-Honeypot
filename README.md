@@ -19,6 +19,7 @@
 <img src="dionaea-honeypot.gif">
 
 ### Database Backup (Required) 
+![Animation](https://user-images.githubusercontent.com/111730072/205549894-b63e7c5d-e29a-4820-b154-64c18b9bf305.gif)
 
 **Summary:** What is the RDBMS that MHN-Admin uses? What information does the exported JSON file record?
 
