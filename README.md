@@ -55,3 +55,17 @@ SHA1 Hash: *Run `sha1sum` on the file and record the hash here.*
 ## Notes
 
 Describe any challenges encountered while doing the assignment.
+ii. Issues encountered
+
+p0f and Elastic Honey did not install due to OS mismatch (seems to need RedHat)
+Otherwise, smooth deployments with GCP and MHN
+iii. A summary of the data collected: number of attacks, number of malware samples, etc.
+
+mhn-honeypot-1 (Dionea)
+Attacks: 1760
+Duration live: 8 hours
+Protocols: pcap, SipSession, smbd, epmapper
+mhn-honeypot-2 (Dionea with HTTP)
+Attacks: 847
+Duration live: 8 hours
+Protocols: SipSession, smbd, pcap, SipCall
