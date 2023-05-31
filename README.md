@@ -4,9 +4,9 @@
 
 **Objective:** Create a honeynet using MHN-Admin. Present your findings as if you were requested to give a brief report of the current state of Internet security. Assume that your audience is a current employer who is questioning why the company should allocate anymore resources to the IT security team.
 
-### MHN-Admin Deployment (Required)
+### MHN-Admin Deployment 
 
-**Summary:** How did you deploy it? Did you use GCP, AWS, Azure, Vagrant, VirtualBox, etc.?What is difference between GCP and AWS?
+ How did you deploy it? Did you use GCP, AWS, Azure, Vagrant, VirtualBox, etc.?What is difference between GCP and AWS?
 
 
 Google Cloud Platform provides IaaS, PaaS, and serverless computing environments. A comparatively new Google Cloud Platform has all the tools and services required by developers and professionals. Amazon Web Services(AWS): It provides on-demand cloud computing platforms and APIs.
@@ -54,8 +54,8 @@ SHA1 Hash: *Run `sha1sum` on the file and record the hash here.*
 
 ## Notes
 
-Describe any challenges encountered while doing the assignment.
-ii. Issues encountered
+Describe any challenges encountered 
+ Issues encountered
 
 p0f and Elastic Honey did not install due to OS mismatch (seems to need RedHat)
 Otherwise, smooth deployments with GCP and MHN
